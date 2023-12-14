@@ -5,10 +5,15 @@ public class Users {
     private String mail;
     private String role;
 
-    public Users(String username,String mail,String role) {
+    public Users(String username,String mail) {
         this.username = username;
         this.mail=mail;
         this.role="normal";
+    }
+    public Users(String username,String mail,String role) {
+        this.username = username;
+        this.mail=mail;
+        this.role=role;
     }
 
 

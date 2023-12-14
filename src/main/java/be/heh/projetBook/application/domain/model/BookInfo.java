@@ -6,10 +6,10 @@ public class BookInfo {
     private String authorName;
     private String summary;
     private String cover;  //string car c'est un url
-    private int isbn;
+    private String isbn;
 
     //constructeur
-    public BookInfo(String title, String authorName , String summary, String cover, int isbn, double rate){
+    public BookInfo(String title, String authorName , String summary, String cover, String isbn, double rate){
         this.title=title;
         this.authorName=authorName;
         this.summary=summary;
@@ -17,7 +17,7 @@ public class BookInfo {
         this.isbn=isbn;
         this.rate=rate;
     }
-    public BookInfo(String title, String authorName , String summary, String cover, int isbn){
+    public BookInfo(String title, String authorName , String summary, String cover, String isbn){
         this.title=title;
         this.authorName=authorName;
         this.summary=summary;
@@ -53,8 +53,8 @@ public class BookInfo {
     public void setCover(String cover){
         this.cover=cover;
     }
-    public int getIsbn() {return isbn;}
-    public void setIsbn(int isbn) {this.isbn = isbn;}
+    public String getIsbn() {return isbn;}
+    public void setIsbn(String isbn) {this.isbn = isbn;}
     public double getRate(){
         return  rate;
     }
