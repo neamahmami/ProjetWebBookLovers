@@ -8,11 +8,11 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="my_bd@dpg-clpo02p46foc73dcmsn0-a.frankfurt-postgres.render.com" uuid="0a65a0f3-1ee9-42ce-b6b8-fb828abe0e46">
+    <data-source source="LOCAL" name="my_db_yqkm@dpg-clthc2gl5elc73dp95ig-a.frankfurt-postgres.render.com" uuid="98c85e36-a64c-4bd7-97d6-c262f982b262">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://dpg-clpo02p46foc73dcmsn0-a.frankfurt-postgres.render.com:5432/my_bd</jdbc-url>
+      <jdbc-url>jdbc:postgresql://dpg-clthc2gl5elc73dp95ig-a.frankfurt-postgres.render.com/my_db_yqkm</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

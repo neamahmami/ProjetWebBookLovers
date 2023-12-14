@@ -17,7 +17,7 @@ public class CreateBookRepository implements AddNewBook {
     }
     @Override
     public void addBook(BookInfo book){
-        String req = "INSERT INTO my_db.booklist VALUES (?,?,?,?,?,?)";
+        String req = "INSERT INTO booklist VALUES (?,?,?,?,?,?)";
 try {
     jdbc.update(req,
             book.getIsbn(),

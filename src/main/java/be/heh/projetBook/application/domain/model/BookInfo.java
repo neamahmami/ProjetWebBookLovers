@@ -17,7 +17,7 @@ public class BookInfo {
         this.isbn=isbn;
         this.rate=rate;
     }
-    public BookInfo(String title, String authorName , String summary, String cover, String isbn){
+    /*public BookInfo(String title, String authorName , String summary, String cover, String isbn){
         this.title=title;
         this.authorName=authorName;
         this.summary=summary;
@@ -27,7 +27,7 @@ public class BookInfo {
     }
     public BookInfo(String title){
         this.title = title;
-    }
+    }*/
     //getters and setters
     public String getTitle() {
         return title;
