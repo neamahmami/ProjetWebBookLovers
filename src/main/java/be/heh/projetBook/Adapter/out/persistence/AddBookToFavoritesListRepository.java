@@ -22,13 +22,20 @@ public class AddBookToFavoritesListRepository implements AddingTheBookToFavorite
     public void addFavoriteBook(BookInfo book) {
 
         try {
+                String req = "INSERT INTO my_db.booklist VALUES (?,?,?,?,?,?)";
+                try {
+                    jdbc.update(req,
+                            book.getIsbn(),
+                            book.getTitle(),
+                            book.getAuthor(),
+                            book.getSummary(),
+                            book.getCover(),
+                            book.getRate());
+                }
+                catch (Exception e) {
+                    e.printStackTrace();
+                }
 
-            /*if (isBookInDatabase(book.getIsbn())) {
-                throw new IllegalArgumentException("Le livre existe déjà dans la base de données.");
-            }
-*/
-            String query = "INSERT INTO favoritesTable (title, author, cover, isbn,summary, rate) VALUES (?, ?, ?, ?, ?, ?)";
-            jdbc.update(query, book.getTitle(), book.getAuthor(), book.getCover(), book.getIsbn(), book.getSummary(), book.getRate());
 
             System.out.println("Le livre a été ajouté à la base de données.");
 
