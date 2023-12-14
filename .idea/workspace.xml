@@ -4,27 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="master root final">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/CreateBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/CreateBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/service/CreateBookImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/in/CreateBookUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/out/AddNewBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/createTables.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/CreateBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/CreateBookImplementationTest.java" afterDir="false" />
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="CreateBook prod avant le bon fichier jar">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/model/BookInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/model/BookInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/model/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/model/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/CreateBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/CreateBookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +111,7 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CreateBookRepositoryTest.shoulAddToDatabase">
+  <component name="RunManager" selected="Gradle.CreateBookTest.shouldReturnOk">
     <configuration name="CreateBookImplementationTest.shouldAddBook" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -219,6 +202,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="ProjetWebBook [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RunningApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ProjetWebBook.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="be.heh.projetBook.RunningApp" />
@@ -228,9 +232,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.CreateBookRepositoryTest.shoulAddToDatabase" />
         <item itemvalue="Gradle.CreateBookTest.shouldReturnOk" />
         <item itemvalue="Gradle.ProjetWebBook [build]" />
+        <item itemvalue="Gradle.ProjetWebBook [clean]" />
+        <item itemvalue="Gradle.CreateBookRepositoryTest.shoulAddToDatabase" />
         <item itemvalue="Gradle.CreateBookImplementationTest.shouldAddBook" />
       </list>
     </recent_temporary>
@@ -243,7 +248,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701787198569</updated>
-      <workItem from="1701787199766" duration="44553000" />
+      <workItem from="1701787199766" duration="48386000" />
     </task>
     <task id="LOCAL-00001" summary="master root">
       <created>1701816525256</created>
@@ -259,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1701867647632</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CreateBook prod avant le bon fichier jar">
+      <created>1702549400211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702549400211</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +291,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="master root" />
     <MESSAGE value="master root final" />
-    <option name="LAST_COMMIT_MESSAGE" value="master root final" />
+    <MESSAGE value="CreateBook prod avant le bon fichier jar" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreateBook prod avant le bon fichier jar" />
   </component>
 </project>
