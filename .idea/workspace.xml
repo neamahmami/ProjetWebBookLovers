@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aee0ef0-4ad9-4467-846e-6b0b6651971d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8aee0ef0-4ad9-4467-846e-6b0b6651971d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/web/ShowListFavorites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/web/ShowListFavorites.java" afterDir="false" />
-    </list>
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,8 +154,9 @@
       <list>
         <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
-        <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
+        <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
+        <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
       </list>
     </recent_temporary>
   </component>
