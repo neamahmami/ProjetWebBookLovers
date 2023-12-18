@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="" />
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -156,7 +161,7 @@
         <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
-        <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
+        <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
       </list>
     </recent_temporary>
   </component>
