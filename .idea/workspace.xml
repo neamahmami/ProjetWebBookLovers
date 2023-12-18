@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aee0ef0-4ad9-4467-846e-6b0b6651971d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8aee0ef0-4ad9-4467-846e-6b0b6651971d.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" afterDir="false" />
@@ -91,7 +91,7 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProjetWebBookLovers [build]">
+  <component name="RunManager">
     <configuration name="ProjetWebBookLovers [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -177,6 +177,7 @@
       <workItem from="1702552048278" duration="19000" />
       <workItem from="1702552086686" duration="318000" />
       <workItem from="1702552427566" duration="13032000" />
+      <workItem from="1702935230499" duration="791000" />
     </task>
     <servers />
   </component>

@@ -1,6 +1,7 @@
 package be.heh.projetbook.Adapter.out.persistence;
 
 import be.heh.projetBook.Adapter.out.persistence.AddBookToFavoritesListRepository;
+import be.heh.projetBook.RunningApp;
 import be.heh.projetBook.application.domain.model.BookInfo;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -18,7 +19,7 @@ import org.testcontainers.junit.jupiter.Testcontainers;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
-@SpringBootTest
+@SpringBootTest(classes = RunningApp.class)
 public class AddBookToFavoritesListRepositoryTest {
 
     private BookInfo myBook;
@@ -48,5 +49,5 @@ public class AddBookToFavoritesListRepositoryTest {
 
     }
 
-    // You can write more test cases for other methods as needed
+    
 }
