@@ -9,7 +9,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/web/ShowListFavorites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/web/ShowListFavorites.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="createBook" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,7 +91,7 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.RunningApp">
     <configuration name="ProjetWebBookLovers [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,6 +158,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
+        <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
       </list>
@@ -178,6 +180,7 @@
       <workItem from="1702552086686" duration="318000" />
       <workItem from="1702552427566" duration="13032000" />
       <workItem from="1702935230499" duration="791000" />
+      <workItem from="1702937514614" duration="2335000" />
     </task>
     <servers />
   </component>

@@ -33,26 +33,26 @@ public class AddBookToFavoritesListRepository implements AddingTheBookToFavorite
                             book.getRate());
                 }
                 catch (Exception e) {
-                    e.printStackTrace();
+                    throw new RuntimeException("Erreur lors de l'ajout du livre à la base de données.", e);
                 }
 
 
             System.out.println("Le livre a été ajouté à la base de données.");
 
         } catch (Exception e) {
-            throw new RuntimeException("Erreur lors de l'ajout du livre à la base de données.", e);
+
         }
     }
-    /*public boolean isBookInDatabase(double isbn) {
+   /* public boolean isBookInDatabase(double isbn) {
         try {
-            String query = "SELECT COUNT(*) FROM books WHERE isbn = ?";
+            String query = "SELECT COUNT(*) FROM FavoritesDB.favoritesTable WHERE isbn = ?";
             int count = jdbc.queryForObject(query, Integer.class, isbn);
             return count > 0;
         } catch (Exception e) {
             throw new RuntimeException("Erreur lors de la vérification du livre dans la base de données.", e);
         }
-    }
-*/
+    }*/
+
 
 
 }
