@@ -21,7 +21,7 @@ public class CreateBookTest {
 
     @Test
     public void shouldReturnOk(){
-        bookInfo = new BookInfo("mavida","eva","blabla","cover","12345__6789");
+        bookInfo = new BookInfo("mavida","eva","blabla","cover","12345__6789",9);
         CreateBook create = new CreateBook(createBookRepository);
         //when(create.createBook(bookInfo));
         ResponseEntity<String> response = create.createBook(bookInfo);

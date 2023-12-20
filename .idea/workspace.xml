@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="CreateBook prod après fichier jar">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="CreateBook final">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/CreateBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/CreateBookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/model/BookInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/model/BookInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/CreateBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/CreateBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/CreateBookTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/CreateBookTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,10 +207,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ProjetWebBook [assemble]" />
+        <item itemvalue="Gradle.ProjetWebBook [build]" />
         <item itemvalue="Gradle.ProjetWebBook [clean]" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="HTTP Request.rest-api | #1" />
-        <item itemvalue="Gradle.ProjetWebBook [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -224,7 +222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701787198569</updated>
-      <workItem from="1701787199766" duration="57648000" />
+      <workItem from="1701787199766" duration="63278000" />
     </task>
     <task id="LOCAL-00001" summary="master root">
       <created>1701816525256</created>
@@ -254,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702558850444</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="CreateBook final">
+      <created>1702584306238</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702584306238</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +281,7 @@
     <MESSAGE value="master root final" />
     <MESSAGE value="CreateBook prod avant le bon fichier jar" />
     <MESSAGE value="CreateBook prod après fichier jar" />
-    <option name="LAST_COMMIT_MESSAGE" value="CreateBook prod après fichier jar" />
+    <MESSAGE value="CreateBook final" />
+    <option name="LAST_COMMIT_MESSAGE" value="CreateBook final" />
   </component>
 </project>
