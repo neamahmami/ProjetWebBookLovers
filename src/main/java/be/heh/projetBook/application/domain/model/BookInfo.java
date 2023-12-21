@@ -38,7 +38,7 @@ public class BookInfo {
     public String getAuthor() {
         return authorName;
     }
-    public void setAuthor(String author) {
+    public void setAuthor(String authorName) {
         this.authorName = authorName;
     }
     public String getSummary() {
