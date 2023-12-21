@@ -18,7 +18,7 @@ public class SearchBook {
     }
 
     @GetMapping("/book")
-    public ResponseEntity<List<BookInfo>> createBook(@RequestParam String title) {
+    public ResponseEntity<List<BookInfo>> returnBook(@RequestParam String title) {
         try {
             List<BookInfo> bookList = searchApi.RequestBookInfos(title);
             return ResponseEntity
