@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.49">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>771</IntrospectionStateNumber>
+      <IntrospectionStateNumber>769</IntrospectionStateNumber>
       <ServerVersion>16.1</ServerVersion>
-      <StartupTime>1701957567</StartupTime>
+      <StartupTime>1702937856</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -1400,7 +1400,7 @@ false posixrules
 13212||10|C|G
 13212||-9223372036854775808|U|G
 13212||10|U|G</Grants>
-      <IntrospectionStateNumber>771</IntrospectionStateNumber>
+      <IntrospectionStateNumber>769</IntrospectionStateNumber>
       <ObjectId>5</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -1408,50 +1408,50 @@ false posixrules
       <ObjectId>16388</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
-    <role id="4" parent="1" name="pg_database_owner">
+    <role id="4" parent="1" name="pg_checkpoint">
+      <ObjectId>4544</ObjectId>
+    </role>
+    <role id="5" parent="1" name="pg_create_subscription">
+      <ObjectId>6304</ObjectId>
+    </role>
+    <role id="6" parent="1" name="pg_database_owner">
       <ObjectId>6171</ObjectId>
     </role>
-    <role id="5" parent="1" name="pg_read_all_data">
-      <ObjectId>6181</ObjectId>
+    <role id="7" parent="1" name="pg_execute_server_program">
+      <ObjectId>4571</ObjectId>
     </role>
-    <role id="6" parent="1" name="pg_write_all_data">
-      <ObjectId>6182</ObjectId>
-    </role>
-    <role id="7" parent="1" name="pg_monitor">
+    <role id="8" parent="1" name="pg_monitor">
       <ObjectId>3373</ObjectId>
       <RoleGrants>3374
 3375
 3377</RoleGrants>
     </role>
-    <role id="8" parent="1" name="pg_read_all_settings">
+    <role id="9" parent="1" name="pg_read_all_data">
+      <ObjectId>6181</ObjectId>
+    </role>
+    <role id="10" parent="1" name="pg_read_all_settings">
       <ObjectId>3374</ObjectId>
     </role>
-    <role id="9" parent="1" name="pg_read_all_stats">
+    <role id="11" parent="1" name="pg_read_all_stats">
       <ObjectId>3375</ObjectId>
     </role>
-    <role id="10" parent="1" name="pg_stat_scan_tables">
-      <ObjectId>3377</ObjectId>
-    </role>
-    <role id="11" parent="1" name="pg_read_server_files">
+    <role id="12" parent="1" name="pg_read_server_files">
       <ObjectId>4569</ObjectId>
     </role>
-    <role id="12" parent="1" name="pg_write_server_files">
-      <ObjectId>4570</ObjectId>
-    </role>
-    <role id="13" parent="1" name="pg_execute_server_program">
-      <ObjectId>4571</ObjectId>
-    </role>
-    <role id="14" parent="1" name="pg_signal_backend">
+    <role id="13" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
     </role>
-    <role id="15" parent="1" name="pg_checkpoint">
-      <ObjectId>4544</ObjectId>
+    <role id="14" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
     </role>
-    <role id="16" parent="1" name="pg_use_reserved_connections">
+    <role id="15" parent="1" name="pg_use_reserved_connections">
       <ObjectId>4550</ObjectId>
     </role>
-    <role id="17" parent="1" name="pg_create_subscription">
-      <ObjectId>6304</ObjectId>
+    <role id="16" parent="1" name="pg_write_all_data">
+      <ObjectId>6182</ObjectId>
+    </role>
+    <role id="17" parent="1" name="pg_write_server_files">
+      <ObjectId>4570</ObjectId>
     </role>
     <role id="18" parent="1" name="postgres">
       <BypassRls>1</BypassRls>
@@ -4809,78 +4809,183 @@ false posixrules
       <ValidatorName>fmgr_sql_validator</ValidatorName>
       <ValidatorSchema>pg_catalog</ValidatorSchema>
     </language>
-    <schema id="262" parent="2" name="FavoritesDB">
-      <Comment>Une base de données qui contient les livres </Comment>
-      <IntrospectionStateNumber>771</IntrospectionStateNumber>
-      <IntrospectionTimestamp>2023-12-07.15:49:09.329</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-12-07.14:49:09</LocalIntrospectionTimestamp>
-      <ObjectId>16389</ObjectId>
-      <Outdated>1</Outdated>
-      <StateNumber>748</StateNumber>
-      <OwnerName>postgres</OwnerName>
-    </schema>
-    <schema id="263" parent="2" name="information_schema">
+    <schema id="262" parent="2" name="information_schema">
       <ObjectId>13212</ObjectId>
       <StateNumber>530</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
-    <schema id="264" parent="2" name="pg_catalog">
+    <schema id="263" parent="2" name="pg_catalog">
       <Comment>system catalog schema</Comment>
       <ObjectId>11</ObjectId>
       <StateNumber>524</StateNumber>
       <OwnerName>postgres</OwnerName>
     </schema>
-    <schema id="265" parent="2" name="public">
+    <schema id="264" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>750</IntrospectionStateNumber>
-      <IntrospectionTimestamp>2023-12-07.15:23:40.695</IntrospectionTimestamp>
-      <LocalIntrospectionTimestamp>2023-12-07.14:23:41</LocalIntrospectionTimestamp>
+      <IntrospectionStateNumber>769</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2023-12-25.15:58:33.522</IntrospectionTimestamp>
+      <LocalIntrospectionTimestamp>2023-12-25.14:58:33</LocalIntrospectionTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>524</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
-    <table id="266" parent="262" name="favoritesTable">
-      <ObjectId>16390</ObjectId>
-      <StateNumber>767</StateNumber>
+    <table id="265" parent="264" name="favTable ">
+      <Comment>test datebase </Comment>
+      <ObjectId>24576</ObjectId>
+      <StateNumber>765</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="267" parent="266" name="title">
+    <table id="266" parent="264" name="flyway_schema_history">
+      <ObjectId>16388</ObjectId>
+      <StateNumber>742</StateNumber>
+      <AccessMethodId>2</AccessMethodId>
+      <OwnerName>postgres</OwnerName>
+    </table>
+    <column id="267" parent="265" name="isbn">
       <DasType>varchar(20)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>752</StateNumber>
+      <StateNumber>750</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="268" parent="266" name="author">
-      <DasType>varchar(20)|0s</DasType>
+    <column id="268" parent="265" name="title">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>770</StateNumber>
+      <StateNumber>753</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="269" parent="266" name="cover ">
-      <DasType>text|0s</DasType>
+    <column id="269" parent="265" name="summary">
+      <DasType>varchar|0s</DasType>
       <Position>3</Position>
-      <StateNumber>758</StateNumber>
-      <TypeId>25</TypeId>
+      <StateNumber>756</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="270" parent="266" name="isbn">
+    <column id="270" parent="265" name="author ">
       <DasType>varchar|0s</DasType>
       <Position>4</Position>
-      <StateNumber>761</StateNumber>
+      <StateNumber>759</StateNumber>
       <TypeId>1043</TypeId>
     </column>
-    <column id="271" parent="266" name="summary">
-      <DasType>text|0s</DasType>
+    <column id="271" parent="265" name="cover">
+      <DasType>varchar|0s</DasType>
       <Position>5</Position>
-      <StateNumber>764</StateNumber>
-      <TypeId>25</TypeId>
+      <StateNumber>762</StateNumber>
+      <TypeId>1043</TypeId>
     </column>
-    <column id="272" parent="266" name="rate ">
-      <DasType>double precision|0s</DasType>
+    <column id="272" parent="265" name="rate">
+      <DasType>integer|0s</DasType>
       <Position>6</Position>
-      <StateNumber>767</StateNumber>
-      <TypeId>701</TypeId>
+      <StateNumber>765</StateNumber>
+      <TypeId>23</TypeId>
     </column>
+    <index id="273" parent="265" name="isbn _pk">
+      <ColNames>isbn</ColNames>
+      <ObjectId>24581</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>768</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="274" parent="265" name="isbn _pk">
+      <ObjectId>24582</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>768</StateNumber>
+      <UnderlyingIndexId>24581</UnderlyingIndexId>
+    </key>
+    <column id="275" parent="266" name="installed_rank">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="276" parent="266" name="version">
+      <DasType>varchar(50)|0s</DasType>
+      <Position>2</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="277" parent="266" name="description">
+      <DasType>varchar(200)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="278" parent="266" name="type">
+      <DasType>varchar(20)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="279" parent="266" name="script">
+      <DasType>varchar(1000)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="280" parent="266" name="checksum">
+      <DasType>integer|0s</DasType>
+      <Position>6</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="281" parent="266" name="installed_by">
+      <DasType>varchar(100)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>7</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="282" parent="266" name="installed_on">
+      <DasType>timestamp|0s</DasType>
+      <DefaultExpression>now()</DefaultExpression>
+      <NotNull>1</NotNull>
+      <Position>8</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="283" parent="266" name="execution_time">
+      <DasType>integer|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>9</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="284" parent="266" name="success">
+      <DasType>boolean|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>10</Position>
+      <StateNumber>742</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <index id="285" parent="266" name="flyway_schema_history_pk">
+      <ColNames>installed_rank</ColNames>
+      <ObjectId>16394</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>742</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="286" parent="266" name="flyway_schema_history_s_idx">
+      <ColNames>success</ColNames>
+      <ObjectId>16396</ObjectId>
+      <StateNumber>742</StateNumber>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <key id="287" parent="266" name="flyway_schema_history_pk">
+      <ObjectId>16395</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>742</StateNumber>
+      <UnderlyingIndexId>16394</UnderlyingIndexId>
+    </key>
   </database-model>
 </dataSource>
