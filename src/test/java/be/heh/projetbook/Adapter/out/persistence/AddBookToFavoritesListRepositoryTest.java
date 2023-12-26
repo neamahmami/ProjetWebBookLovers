@@ -44,7 +44,7 @@ public class AddBookToFavoritesListRepositoryTest {
 
     @Test
     public void shoulAddToDatabase() {
-        myBook = new BookInfo("lalala","auteur","résumé","cover","101112",2);
+        myBook = new BookInfo("lalala","auteur","résumé","cover","70",2);
         repository.addFavoriteBook(myBook);
 
     }

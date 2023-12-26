@@ -22,7 +22,7 @@ public class AddBookToFavoritesListRepository implements AddingTheBookToFavorite
     public void addFavoriteBook(BookInfo book) {
 
         try {
-                String req = "INSERT INTO favTable VALUES (?,?,?,?,?,?)";
+                String req = "INSERT INTO my_db.favoritesList VALUES (?,?,?,?,?,?)";
                 try {
                     jdbc.update(req,
                             book.getIsbn(),

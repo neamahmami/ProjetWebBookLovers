@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="commit 2" />
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="commit 2">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/insertToFavTable.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aee0ef0-4ad9-4467-846e-6b0b6651971d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8aee0ef0-4ad9-4467-846e-6b0b6651971d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/8aee0ef0-4ad9-4467-846e-6b0b6651971d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/8aee0ef0-4ad9-4467-846e-6b0b6651971d/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cce640fd-10aa-4ec6-8489-6a889f789044.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cce640fd-10aa-4ec6-8489-6a889f789044.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_00__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_17__Changes_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/CreateTable.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/CreateTable.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -69,7 +83,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Add-Book-To-Favorites-List",
-    "last_opened_file_path": "C:/Users/Neama Hmami/Downloads/Stricwant_Fadli_Projet_Architecture_Hexagonale",
+    "last_opened_file_path": "C:/Users/Neama Hmami/Documents/GitHub/ProjetWebBookLovers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,6 +95,9 @@
   "keyToStringList": {
     "DatabaseDriversLRU": [
       "postgresql"
+    ],
+    "RunConfigurationTargetLRU": [
+      "8aee0ef0-4ad9-4467-846e-6b0b6651971d/database/\"postgres\"/schema/\"public\""
     ]
   }
 }]]></component>
@@ -90,6 +107,18 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="CreateTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/CreateTable.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="8aee0ef0-4ad9-4467-846e-6b0b6651971d" namespace="database/&quot;postgres&quot;/schema/&quot;public&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="insertToFavTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/src/main/resources/insertToFavTable.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="8aee0ef0-4ad9-4467-846e-6b0b6651971d" namespace="database/&quot;postgres&quot;/schema/&quot;public&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="ProjetWebBookLovers [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,8 +185,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
+        <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [build]" />
         <item itemvalue="Gradle.ProjetWebBookLovers [buildDependents]" />
@@ -180,6 +209,7 @@
       <workItem from="1702552427566" duration="13032000" />
       <workItem from="1702935230499" duration="791000" />
       <workItem from="1702937514614" duration="2335000" />
+      <workItem from="1703519463434" duration="3272000" />
     </task>
     <task id="LOCAL-00001" summary="commit 2">
       <option name="closed" value="true" />
