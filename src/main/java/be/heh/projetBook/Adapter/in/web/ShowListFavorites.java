@@ -1,4 +1,4 @@
-package be.heh.projetBook.Adapter.web;
+package be.heh.projetBook.Adapter.in.web;
 
 import be.heh.projetBook.application.domain.model.BookInfo;
 import be.heh.projetBook.application.port.out.AddingTheBookToFavoritesList;

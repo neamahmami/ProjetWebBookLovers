@@ -41,7 +41,6 @@ public class AddBookToFavoritesListRepositoryTest {
     private BeanNameUrlHandlerMapping bean;
 
 
-
     @Test
     public void shoulAddToDatabase() {
         myBook = new BookInfo("lalala","auteur","résumé","cover","70",2);
