@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="before React">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/AddBookToFavorites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/AddBookToFavorites.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/in/web/AddBookToFavoritesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/in/web/AddBookToFavoritesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +71,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "Add-Book-To-Favorites-List",
-    "last_opened_file_path": "C:/Users/Neama Hmami/Documents/GitHub/ProjetWebBookLovers",
+    "last_opened_file_path": "C:/Users/Neama Hmami/Documents/GitHub/FrontBookLovers",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -100,7 +96,7 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.RunningApp">
     <configuration name="CreateTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/main/resources/CreateTable.sql" />
       <script-mode>FILE</script-mode>
@@ -229,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705848378576</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="before React">
+      <option name="closed" value="true" />
+      <created>1705852228564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705852228564</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
