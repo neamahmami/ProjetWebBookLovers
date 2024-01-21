@@ -2,7 +2,6 @@ package be.heh.projetbook.Adapter.in.web;
 
 import be.heh.projetBook.Adapter.in.web.AddBookToFavorites;
 import be.heh.projetBook.Adapter.out.persistence.AddBookToFavoritesListRepository;
-import be.heh.projetBook.RunningApp;
 import be.heh.projetBook.application.domain.model.BookInfo;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -10,14 +9,12 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-@SpringBootTest(classes = RunningApp.class)
 public class AddBookToFavoritesTest {
 
     @Mock

@@ -27,16 +27,14 @@ public class AddBookToFavoritesListRepositoryTest {
     private AddBookToFavoritesListRepository repository;
 
 
-
-    @Container
-    private static final PostgreSQLContainer<?> postgresContainer = new PostgreSQLContainer<>("postgres:latest")
-            .withDatabaseName("FavoritesDB")
-            .withUsername("postgres")
-            .withPassword("root");
+   // @Container
+   // private static final PostgreSQLContainer<?> postgresContainer = new PostgreSQLContainer<>("postgres:latest")
+           // .withDatabaseName("FavoritesDB")
+          // .withUsername("postgres")
+           // .withPassword("root");
 
     @Mock
     private JdbcTemplate jdbcTemplate;
-
     @Mock
     private BeanNameUrlHandlerMapping bean;
 

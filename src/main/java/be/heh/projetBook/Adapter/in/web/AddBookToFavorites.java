@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/favorites")
 public class AddBookToFavorites {
 
-    private final Favorites favList;
+    //private final Favorites favList;
     private final AddingTheBookToFavoritesList addToFavoritesList;
-
+   // public AddBookToFavorites(Favorites favList, AddingTheBookToFavoritesList addToFavoritesList)
     @Autowired //pour injecter les dépendances nécessaires lors de la création de l'instance du contrôleur.
-    public AddBookToFavorites(Favorites favList, AddingTheBookToFavoritesList addToFavoritesList) {
-        this.favList = favList;
+    public AddBookToFavorites( AddingTheBookToFavoritesList addToFavoritesList) {
+      //  this.favList = favList;
         this.addToFavoritesList = addToFavoritesList;
     }
 

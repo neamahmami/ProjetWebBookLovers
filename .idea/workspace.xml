@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="commit 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/in/web/AddBookToFavoritesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cce640fd-10aa-4ec6-8489-6a889f789044.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cce640fd-10aa-4ec6-8489-6a889f789044.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_00__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_17__Changes_.xml" afterDir="false" />
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="before React">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/ShowListFavorites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/AddBookToFavorites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/AddBookToFavorites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/AddBookToFavorites.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/out/persistence/AddBookToFavoritesListRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/in/web/AddBookToFavoritesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/in/web/AddBookToFavoritesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +90,8 @@
     ],
     "RunConfigurationTargetLRU": [
       "8aee0ef0-4ad9-4467-846e-6b0b6651971d/database/\"postgres\"/schema/\"public\"",
-      "8aee0ef0-4ad9-4467-846e-6b0b6651971d"
+      "8aee0ef0-4ad9-4467-846e-6b0b6651971d",
+      "b5bfddf9-b8b6-454d-b3cf-884177e19f15"
     ]
   }
 }]]></component>
@@ -108,7 +104,7 @@
     <configuration name="CreateTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/main/resources/CreateTable.sql" />
       <script-mode>FILE</script-mode>
-      <data-source id="8aee0ef0-4ad9-4467-846e-6b0b6651971d" />
+      <data-source id="b5bfddf9-b8b6-454d-b3cf-884177e19f15" />
       <method v="2" />
     </configuration>
     <configuration name="insertToFavTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
@@ -225,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703516457073</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="before React">
+      <option name="closed" value="true" />
+      <created>1705848378576</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705848378576</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -233,6 +237,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
+    <MESSAGE value="before React" />
+    <option name="LAST_COMMIT_MESSAGE" value="before React" />
   </component>
 </project>

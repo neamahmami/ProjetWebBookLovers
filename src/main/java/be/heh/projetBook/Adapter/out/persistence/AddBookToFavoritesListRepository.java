@@ -20,9 +20,9 @@ public class AddBookToFavoritesListRepository implements AddingTheBookToFavorite
 @Override
 
     public void addFavoriteBook(BookInfo book) {
-
+// pour reussir le test faut mettre favtable
         try {
-                String req = "INSERT INTO my_db_yqkm.favoritesList VALUES (?,?,?,?,?,?)";
+                String req = "INSERT INTO favtable VALUES (?,?,?,?,?,?)";
                 try {
                     jdbc.update(req,
                             book.getIsbn(),
