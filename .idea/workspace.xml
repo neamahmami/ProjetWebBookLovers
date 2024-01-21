@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="commit 2">
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/in/web/AddBookToFavoritesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/cce640fd-10aa-4ec6-8489-6a889f789044.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/cce640fd-10aa-4ec6-8489-6a889f789044.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_00__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_17__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_17__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/web/ShowListFavorites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/ShowListFavorites.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/Adapter/out/persistence/AddBookToFavoritesListRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/ShowListFavorites.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/Adapter/in/web/AddBookToFavorites.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,45 +69,46 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;Add-Book-To-Favorites-List&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Neama Hmami/Documents/GitHub/ProjetWebBookLovers&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "Add-Book-To-Favorites-List",
+    "last_opened_file_path": "C:/Users/Neama Hmami/Documents/GitHub/ProjetWebBookLovers",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;RunConfigurationTargetLRU&quot;: [
-      &quot;8aee0ef0-4ad9-4467-846e-6b0b6651971d/database/\&quot;postgres\&quot;/schema/\&quot;public\&quot;&quot;
+    "RunConfigurationTargetLRU": [
+      "8aee0ef0-4ad9-4467-846e-6b0b6651971d/database/\"postgres\"/schema/\"public\"",
+      "8aee0ef0-4ad9-4467-846e-6b0b6651971d"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Database Script.CreateTable.sql">
+  <component name="RunManager">
     <configuration name="CreateTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/main/resources/CreateTable.sql" />
       <script-mode>FILE</script-mode>
-      <data-source id="8aee0ef0-4ad9-4467-846e-6b0b6651971d" namespace="database/&quot;postgres&quot;/schema/&quot;public&quot;" />
+      <data-source id="8aee0ef0-4ad9-4467-846e-6b0b6651971d" />
       <method v="2" />
     </configuration>
     <configuration name="insertToFavTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">

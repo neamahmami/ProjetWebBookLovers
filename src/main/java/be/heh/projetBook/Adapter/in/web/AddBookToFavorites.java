@@ -8,17 +8,16 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.List;
 
 @RestController
 @RequestMapping("/favorites")
-public class ShowListFavorites {
+public class AddBookToFavorites {
 
     private final Favorites favList;
     private final AddingTheBookToFavoritesList addToFavoritesList;
 
-    @Autowired
-    public ShowListFavorites(Favorites favList, AddingTheBookToFavoritesList addToFavoritesList) {
+    @Autowired //pour injecter les dépendances nécessaires lors de la création de l'instance du contrôleur.
+    public AddBookToFavorites(Favorites favList, AddingTheBookToFavoritesList addToFavoritesList) {
         this.favList = favList;
         this.addToFavoritesList = addToFavoritesList;
     }
