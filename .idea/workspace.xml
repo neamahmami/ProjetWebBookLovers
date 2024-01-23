@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="before React">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b5bfddf9-b8b6-454d-b3cf-884177e19f15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b5bfddf9-b8b6-454d-b3cf-884177e19f15.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/cce640fd-10aa-4ec6-8489-6a889f789044.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_22_51__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_18-12-23_23_54__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_00__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_19-12-23_00_00__Changes_.xml" afterDir="false" />
@@ -61,7 +60,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2Z7y1O4XUnqZuh4LBH8Thw0ik9H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -102,7 +103,7 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RunningApp">
+  <component name="RunManager">
     <configuration name="CreateTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/main/resources/CreateTable.sql" />
       <script-mode>FILE</script-mode>
