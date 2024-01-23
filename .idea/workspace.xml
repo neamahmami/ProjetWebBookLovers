@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="master root">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/ShowFavoritesList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/ShowFavoritesListRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/service/ShowFavoritesListUseCaseImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/in/ShowFavoritesListUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/out/ShowList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/ShowFavoritesListRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/ShowFavoritesListUseCaseImplementationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/CreateBookImplementationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/CreateBookImplementationTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="commit 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,13 +73,16 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Z7y1O4XUnqZuh4LBH8Thw0ik9H" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -280,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702584306238</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="commit 2">
+      <option name="closed" value="true" />
+      <created>1706053680147</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706053680147</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -298,11 +296,13 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="master root" />
     <MESSAGE value="master root final" />
     <MESSAGE value="CreateBook prod avant le bon fichier jar" />
     <MESSAGE value="CreateBook prod après fichier jar" />
     <MESSAGE value="CreateBook final" />
-    <option name="LAST_COMMIT_MESSAGE" value="CreateBook final" />
+    <MESSAGE value="commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
   </component>
 </project>
