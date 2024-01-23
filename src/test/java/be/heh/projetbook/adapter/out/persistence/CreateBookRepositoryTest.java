@@ -17,7 +17,7 @@ public class CreateBookRepositoryTest {
 
     @Test
     public void shoulAddToDatabase() {
-        myBook = new BookInfo("lalala","auteur","résumé","cover","101112");
+        myBook = new BookInfo("lalala","auteur","résumé","cover","101112",2.2);
         repository.addBook(myBook);
 
     }
