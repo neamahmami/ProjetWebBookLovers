@@ -4,23 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="CreateBook final">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/apiResources/ApiDocs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/apiResources/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/SearchBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchBookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/service/SearchBookImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/in/SearchBookUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/out/ApiRequester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/SearchBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/SearchBookRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/SearchBookImplementationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="Searchbook avec tous les tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/apiResources/BookInfoRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/CreateBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/CreateBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/model/BookInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/model/BookInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/CreateBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/CreateBookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchBookRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,30 +83,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Program Files/GitHub/ProjetWebBookLovers/ProjetWebBook&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Program Files/GitHub/ProjetWebBookLovers/ProjetWebBook",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "spring.configuration.checksum": "3b45dc4800c441d8e84ed01058d52e54",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
-      &quot;PostgreSQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect": [
+      "PostgreSQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook" />
@@ -129,7 +121,30 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchBookImplementationTest.shouldReturnBooks">
+  <component name="RunManager" selected="Gradle.ProjetWebBook [assemble]">
+    <configuration name="CreateBookTest.shouldReturnOk" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;be.heh.projetbook.adapter.in.web.CreateBookTest.shouldReturnOk&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ProjetWebBook [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -142,6 +157,27 @@
         <option name="taskNames">
           <list>
             <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProjetWebBook [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -172,7 +208,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SearchBookImplementationTest.shouldReturnBooks" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="SearchBookTest.shouldReturnOk" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -185,7 +221,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;be.heh.projetbook.application.domain.service.SearchBookImplementationTest.shouldReturnBooks&quot;" />
+            <option value="&quot;be.heh.projetbook.adapter.in.web.SearchBookTest.shouldReturnOk&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,32 +229,6 @@
       <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="SearchBookRepositoryTest.shouldWork" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;be.heh.projetbook.adapter.out.persistence.SearchBookRepositoryTest.shouldWork&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="All in rest-api_2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http">
       <method v="2" />
     </configuration>
     <configuration name="RunningApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -236,11 +246,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SearchBookImplementationTest.shouldReturnBooks" />
-        <item itemvalue="Gradle.SearchBookRepositoryTest.shouldWork" />
-        <item itemvalue="HTTP Request.All in rest-api_2" />
-        <item itemvalue="Gradle.ProjetWebBook [clean]" />
         <item itemvalue="Gradle.ProjetWebBook [assemble]" />
+        <item itemvalue="Gradle.ProjetWebBook [clean]" />
+        <item itemvalue="Gradle.CreateBookTest.shouldReturnOk" />
+        <item itemvalue="Gradle.SearchBookTest.shouldReturnOk" />
+        <item itemvalue="Gradle.ProjetWebBook [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -253,6 +263,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701787198569</updated>
       <workItem from="1701787199766" duration="63278000" />
+      <workItem from="1705522345409" duration="11132000" />
     </task>
     <task id="LOCAL-00001" summary="master root">
       <created>1701816525256</created>
@@ -296,7 +307,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703077068245</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Searchbook avant test web">
+      <created>1703165235404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703165235404</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Searchbook avec tous les tests">
+      <created>1703165947363</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703165947363</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,6 +345,8 @@
     <MESSAGE value="CreateBook prod après fichier jar" />
     <MESSAGE value="CreateBook final" />
     <MESSAGE value="Master merge CreateBook" />
-    <option name="LAST_COMMIT_MESSAGE" value="Master merge CreateBook" />
+    <MESSAGE value="Searchbook avant test web" />
+    <MESSAGE value="Searchbook avec tous les tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Searchbook avec tous les tests" />
   </component>
 </project>
