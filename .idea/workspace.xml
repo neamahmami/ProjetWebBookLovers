@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="commit 2">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/ShowFavoritesListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/b44f9888-dfc1-4f9e-b8a2-0bb24a51e124.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b44f9888-dfc1-4f9e-b8a2-0bb24a51e124.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/ShowFavoritesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/ShowFavoritesList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/ShowFavoritesListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/ShowFavoritesListRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/ShowFavoritesListRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/ShowFavoritesListRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

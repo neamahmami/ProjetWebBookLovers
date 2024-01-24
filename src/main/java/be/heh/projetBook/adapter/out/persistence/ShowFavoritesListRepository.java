@@ -18,19 +18,22 @@ public class ShowFavoritesListRepository implements ShowList {
 
     public ShowFavoritesListRepository(JdbcTemplate jdbc) {
         this.jdbc = jdbc;
+
     }
 
     @Override
     public ArrayList<BookInfo> ShowFavorites() {
-        String sql = "SELECT * FROM favtable";
+
         try {
-            log.info("Executing SQL query: {}", sql);
-            // Utilisation de BeanPropertyRowMapper pour mapper automatiquement les résultats à un objet BookInfo
-            List<BookInfo> favorites = jdbc.query(sql, new BeanPropertyRowMapper<>(BookInfo.class));
+            String sql = "SELECT * FROM favtable";
+
+            // Utilisation de BeanPropertyRowMapper pour convertir automatiquement les résultats à un objet BookInfo
+            List<BookInfo> favorites = jdbc.query(sql,
+                    new BeanPropertyRowMapper<>(BookInfo.class));
+
             return new ArrayList<>(favorites);
         } catch (Exception e) {
-            e.printStackTrace();
-            log.error("*********" + sql);
+
             return new ArrayList<>(); // Ou lancez une exception appropriée selon le cas
         }
     }
