@@ -32,3 +32,27 @@
 2024-01-24 14:35:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
 2024-01-24 14:35:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
 2024-01-24 14:35:34 [Test worker] INFO  b.h.p.a.in.web.SearchCommentsTest - Started SearchCommentsTest in 2.131 seconds (process running for 3.199)
+2024-01-24 17:38:32 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Starting SearchCommentsRepositoryTest using Java 18.0.2 with PID 112940 (started by fabit in C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook)
+2024-01-24 17:38:32 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - The following 1 profile is active: "dev"
+2024-01-24 17:38:34 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Started SearchCommentsRepositoryTest in 1.85 seconds (process running for 2.746)
+2024-01-24 17:38:35 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-24 17:38:35 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@ac417a2
+2024-01-24 17:38:35 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-24 17:38:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-24 17:38:35 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-24 17:40:04 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Starting SearchCommentsRepositoryTest using Java 18.0.2 with PID 115076 (started by fabit in C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook)
+2024-01-24 17:40:04 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - The following 1 profile is active: "dev"
+2024-01-24 17:40:06 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Started SearchCommentsRepositoryTest in 1.733 seconds (process running for 2.658)
+2024-01-24 17:40:07 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-24 17:40:07 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3451fc88
+2024-01-24 17:40:07 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-24 17:40:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-24 17:40:07 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-24 17:41:36 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Starting SearchCommentsRepositoryTest using Java 18.0.2 with PID 90548 (started by fabit in C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook)
+2024-01-24 17:41:36 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - The following 1 profile is active: "dev"
+2024-01-24 17:41:37 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Started SearchCommentsRepositoryTest in 1.734 seconds (process running for 2.64)
+2024-01-24 17:41:38 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-24 17:41:38 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3b7b0b57
+2024-01-24 17:41:38 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-24 17:41:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-24 17:41:38 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
