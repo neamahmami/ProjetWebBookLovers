@@ -17,7 +17,6 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 import static org.mockito.Mockito.doNothing;
 
 @WebMvcTest(AddComments.class)
-//@SpringBootTest(classes = RunningApp.class)
 public class AddCommentsTest {
     @Autowired
     MockMvc mockMvc;

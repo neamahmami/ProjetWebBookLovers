@@ -17,10 +17,10 @@ public class AddComments {
         this.addCommentsRepository = addCommentsRepository;
     }
 
-    @PostMapping("/comment/{isbn}")
-        public ResponseEntity<String> createBook(@RequestBody String comment, @PathVariable String isbn) {
+    @PostMapping("/comment/{bookIsbn}")
+        public ResponseEntity<String> createBook(@RequestBody String comment, @PathVariable String bookIsbn) {
             try {
-                addCommentsRepository.savecomment(comment,isbn);
+                addCommentsRepository.savecomment(comment,bookIsbn);
                 return ResponseEntity
                         .status(HttpStatus.OK)
                         .body("Commentaire ajouté avec succès");
