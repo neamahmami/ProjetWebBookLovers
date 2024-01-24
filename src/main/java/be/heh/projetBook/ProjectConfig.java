@@ -1,7 +1,10 @@
 package be.heh.projetBook;
 
+import be.heh.projetBook.adapter.out.persistence.AddCommentsRepository;
 import be.heh.projetBook.adapter.out.persistence.CreateBookRepository;
+import be.heh.projetBook.application.domain.service.AddCommentsImplementation;
 import be.heh.projetBook.application.domain.service.CreateBookImplementation;
+import be.heh.projetBook.application.port.in.AddCommentsUseCase;
 import be.heh.projetBook.application.port.in.CreateBookUseCase;
 import be.heh.projetBook.application.port.out.AddNewBook;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +23,11 @@ public class ProjectConfig {
     @Bean
     CreateBookUseCase getCreateBookUseCase(){
         return new CreateBookImplementation(new CreateBookRepository(jdbcTemplate));
+    }
+
+    @Bean
+    AddCommentsUseCase getAddCommentsUseCase(){
+        return new AddCommentsImplementation(new AddCommentsRepository(jdbcTemplate));
     }
 
     @Bean
