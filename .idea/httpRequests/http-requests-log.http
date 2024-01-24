@@ -1,0 +1,30 @@
+GET https://openlibrary.org/works/OL2976332W.json
+Accept: application/json
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2023-12-21T111246.200.json
+
+###
+
+POST https://backendtest-5h60.onrender.com/book
+Accept: application/json
+Content-Length: 134
+Content-Type: */*; charset=UTF-8
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.13 (Java/17.0.6)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+{
+    "title" : "montitre",
+    "authorName" : "eva",
+    "summary" : "livre de test",
+    "cover" : "image",
+    "isbn" : "haha123"
+}
+
+<> 2023-12-14T143700.415.json
+
+###
+

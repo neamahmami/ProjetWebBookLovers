@@ -1,0 +1,43 @@
+Index: src/test/java/be/heh/projetbook/adapter/out/persistence/SearchBookRepositoryTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package be.heh.projetbook.adapter.out.persistence;\r\n\r\nimport be.heh.projetBook.RunningApp;\r\nimport be.heh.projetBook.adapter.out.persistence.SearchBookRepository;\r\nimport be.heh.projetBook.application.domain.model.BookInfo;\r\nimport org.junit.jupiter.api.Test;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.boot.test.context.SpringBootTest;\r\n\r\nimport java.util.List;\r\n\r\n@SpringBootTest(classes = RunningApp.class)\r\npublic class SearchBookRepositoryTest {\r\n\r\n    @Autowired\r\n    SearchBookRepository searchBookRepository;\r\n\r\n    @Test\r\n    public void shouldWork() {\r\n\r\n        //myBook = new BookInfo(\"lalala\",\"auteur\",\"résumé\",\"cover\",\"101112\",2);\r\n        String titre = \"the love hypothesis\";\r\n        List<BookInfo> test =  searchBookRepository.RequestBookInfos(titre);\r\n        for (BookInfo book :test) {\r\n            System.out.println(\"le titre est: \"+book.getTitle()+\" et l' url est: \"+book.getIsbn()+ \" et la des est : \"+ book.getSummary()\r\n            +\"et l'image est : \"+ book.getCover());\r\n        }\r\n\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/be/heh/projetbook/adapter/out/persistence/SearchBookRepositoryTest.java b/src/test/java/be/heh/projetbook/adapter/out/persistence/SearchBookRepositoryTest.java
+--- a/src/test/java/be/heh/projetbook/adapter/out/persistence/SearchBookRepositoryTest.java	
++++ b/src/test/java/be/heh/projetbook/adapter/out/persistence/SearchBookRepositoryTest.java	
+@@ -6,10 +6,12 @@
+ import org.junit.jupiter.api.Test;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.boot.test.context.SpringBootTest;
++import org.springframework.test.context.ActiveProfiles;
+ 
+ import java.util.List;
+ 
+ @SpringBootTest(classes = RunningApp.class)
++@ActiveProfiles("dev")
+ public class SearchBookRepositoryTest {
+ 
+     @Autowired
+Index: src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package be.heh.projetbook.adapter.out.persistence;\r\n\r\nimport be.heh.projetBook.RunningApp;\r\nimport be.heh.projetBook.adapter.out.persistence.CreateBookRepository;\r\nimport be.heh.projetBook.application.domain.model.BookInfo;\r\nimport org.junit.jupiter.api.Test;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.boot.test.context.SpringBootTest;\r\nimport org.springframework.test.context.ActiveProfiles;\r\n\r\n@SpringBootTest(classes = RunningApp.class)\r\npublic class CreateBookRepositoryTest {\r\n\r\n    private BookInfo myBook;\r\n    @Autowired\r\n    CreateBookRepository repository;\r\n\r\n    @Test\r\n    public void shoulAddToDatabase() {\r\n        myBook = new BookInfo(\"lalala\",\"auteur\",\"résumé\",\"cover\",\"101112\",2);\r\n        repository.addBook(myBook);\r\n\r\n    }\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java b/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java
+--- a/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java	
++++ b/src/test/java/be/heh/projetbook/adapter/out/persistence/CreateBookRepositoryTest.java	
+@@ -9,8 +9,8 @@
+ import org.springframework.test.context.ActiveProfiles;
+ 
+ @SpringBootTest(classes = RunningApp.class)
++@ActiveProfiles("dev")
+ public class CreateBookRepositoryTest {
+-
+     private BookInfo myBook;
+     @Autowired
+     CreateBookRepository repository;

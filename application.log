@@ -1,0 +1,34 @@
+2024-01-24 10:43:18 [Test worker] INFO  b.h.p.adapter.in.web.AddCommentsTest - Starting AddCommentsTest using Java 18.0.2 with PID 101840 (started by fabit in C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook)
+2024-01-24 10:43:18 [Test worker] INFO  b.h.p.adapter.in.web.AddCommentsTest - The following 1 profile is active: "dev"
+2024-01-24 10:43:20 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-01-24 10:43:20 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-01-24 10:43:20 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 0 ms
+2024-01-24 10:43:20 [Test worker] INFO  b.h.p.adapter.in.web.AddCommentsTest - Started AddCommentsTest in 3.092 seconds (process running for 4.616)
+2024-01-24 13:01:54 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Starting SearchCommentsRepositoryTest using Java 18.0.2 with PID 108872 (started by fabit in C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook)
+2024-01-24 13:01:54 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - The following 1 profile is active: "dev"
+2024-01-24 13:01:56 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Started SearchCommentsRepositoryTest in 2.494 seconds (process running for 4.003)
+2024-01-24 13:01:57 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-24 13:01:57 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11180750
+2024-01-24 13:01:57 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-24 13:01:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-24 13:01:57 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-24 13:20:26 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Starting SearchCommentsRepositoryTest using Java 18.0.2 with PID 103040 (started by fabit in C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook)
+2024-01-24 13:20:26 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - The following 1 profile is active: "dev"
+2024-01-24 13:20:28 [Test worker] INFO  b.h.p.a.o.p.SearchCommentsRepositoryTest - Started SearchCommentsRepositoryTest in 2.261 seconds (process running for 3.339)
+2024-01-24 13:20:29 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-01-24 13:20:29 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@11180750
+2024-01-24 13:20:29 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-01-24 13:20:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-01-24 13:20:29 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-01-24 13:54:45 [Test worker] INFO  b.h.p.adapter.in.web.AddCommentsTest - Starting AddCommentsTest using Java 18.0.2 with PID 65756 (started by fabit in C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook)
+2024-01-24 13:54:45 [Test worker] INFO  b.h.p.adapter.in.web.AddCommentsTest - The following 1 profile is active: "prod"
+2024-01-24 13:54:47 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-01-24 13:54:47 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-01-24 13:54:47 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2024-01-24 13:54:47 [Test worker] INFO  b.h.p.adapter.in.web.AddCommentsTest - Started AddCommentsTest in 2.106 seconds (process running for 3.158)
+2024-01-24 14:35:32 [Test worker] INFO  b.h.p.a.in.web.SearchCommentsTest - Starting SearchCommentsTest using Java 18.0.2 with PID 108788 (started by fabit in C:\Program Files\GitHub\ProjetWebBookLovers\ProjetWebBook)
+2024-01-24 14:35:32 [Test worker] INFO  b.h.p.a.in.web.SearchCommentsTest - The following 1 profile is active: "prod"
+2024-01-24 14:35:34 [Test worker] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2024-01-24 14:35:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2024-01-24 14:35:34 [Test worker] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2024-01-24 14:35:34 [Test worker] INFO  b.h.p.a.in.web.SearchCommentsTest - Started SearchCommentsTest in 2.131 seconds (process running for 3.199)

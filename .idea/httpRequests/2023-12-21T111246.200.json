@@ -1,0 +1,43 @@
+{
+  "first_publish_date": "1983",
+  "key": "/works/OL2976332W",
+  "authors": [
+    {
+      "type": {
+        "key": "/type/author_role"
+      },
+      "author": {
+        "key": "/authors/OL4401010A"
+      }
+    }
+  ],
+  "subjects": [
+    "Fiction",
+    "James Bond (Fictitious character)",
+    "Intelligence service",
+    "Large type books",
+    "Fiction, general",
+    "Great britain, fiction",
+    "Bond, james (fictitious character), fiction"
+  ],
+  "title": "Icebreaker",
+  "subject_places": [
+    "Great Britain"
+  ],
+  "type": {
+    "key": "/type/work"
+  },
+  "covers": [
+    6514556
+  ],
+  "latest_revision": 10,
+  "revision": 10,
+  "created": {
+    "type": "/type/datetime",
+    "value": "2009-12-10T01:19:10.780419"
+  },
+  "last_modified": {
+    "type": "/type/datetime",
+    "value": "2022-12-17T16:09:29.448481"
+  }
+}
