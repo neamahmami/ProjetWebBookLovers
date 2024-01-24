@@ -1172,3 +1172,6 @@ Caused by: java.net.UnknownHostException: dpg-clthc2gl5elc73dp95ig-a
 2024-01-24 13:14:08 [Test worker] INFO  b.h.p.a.o.p.ShowFavoritesListRepositoryTest - Starting ShowFavoritesListRepositoryTest using Java 18.0.2 with PID 17272 (started by Neama Hmami in C:\Users\Neama Hmami\Documents\GitHub\ProjetWebBookLovers)
 2024-01-24 13:14:08 [Test worker] INFO  b.h.p.a.o.p.ShowFavoritesListRepositoryTest - The following 1 profile is active: "prod"
 2024-01-24 13:14:10 [Test worker] INFO  b.h.p.a.o.p.ShowFavoritesListRepositoryTest - Started ShowFavoritesListRepositoryTest in 2.197 seconds (process running for 3.614)
+2024-01-24 20:12:47 [Test worker] INFO  b.h.p.a.o.p.ShowFavoritesListRepositoryTest - Starting ShowFavoritesListRepositoryTest using Java 18.0.2 with PID 28944 (started by Neama Hmami in C:\Users\Neama Hmami\Documents\GitHub\ProjetWebBookLovers)
+2024-01-24 20:12:47 [Test worker] INFO  b.h.p.a.o.p.ShowFavoritesListRepositoryTest - The following 1 profile is active: "prod"
+2024-01-24 20:12:49 [Test worker] INFO  b.h.p.a.o.p.ShowFavoritesListRepositoryTest - Started ShowFavoritesListRepositoryTest in 2.466 seconds (process running for 3.928)
