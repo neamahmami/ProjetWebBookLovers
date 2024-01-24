@@ -1,4 +1,4 @@
-create table my_db.bookList
+create table my_db.booklist
 (
     isbn      varchar(20)  not null
         constraint isbn_pk
@@ -8,5 +8,14 @@ create table my_db.bookList
     author    varchar,
     cover     varchar,
     rate      integer
+);
+
+create table my_db.commentlist
+(
+    id      serial   not null
+        constraint commentlist_pk
+            primary key ,
+    isbn    varchar(20) not null,
+    comment varchar(700)
 );
 

@@ -7,6 +7,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
+import org.springframework.test.web.servlet.MockMvc;
 
 @SpringBootTest(classes = RunningApp.class)
 public class CreateBookRepositoryTest {
@@ -17,7 +18,7 @@ public class CreateBookRepositoryTest {
 
     @Test
     public void shoulAddToDatabase() {
-        myBook = new BookInfo("lalala","auteur","résumé","cover","101112");
+        myBook = new BookInfo("lalala","auteur","résumé","cover","101112",2);
         repository.addBook(myBook);
 
     }
