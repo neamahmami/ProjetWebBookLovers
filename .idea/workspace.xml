@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="commit 2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/ShowFavoritesListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b44f9888-dfc1-4f9e-b8a2-0bb24a51e124.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b44f9888-dfc1-4f9e-b8a2-0bb24a51e124.xml" afterDir="false" />
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="showFavoritesBackend">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/ShowFavoritesList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/ShowFavoritesList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/ShowFavoritesListRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/ShowFavoritesListRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/ShowFavoritesListRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/ShowFavoritesListRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -287,7 +281,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706053680147</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="showFavoritesBackend">
+      <option name="closed" value="true" />
+      <created>1706098600417</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706098600417</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +314,7 @@
     <MESSAGE value="CreateBook prod après fichier jar" />
     <MESSAGE value="CreateBook final" />
     <MESSAGE value="commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit 2" />
+    <MESSAGE value="showFavoritesBackend" />
+    <option name="LAST_COMMIT_MESSAGE" value="showFavoritesBackend" />
   </component>
 </project>
