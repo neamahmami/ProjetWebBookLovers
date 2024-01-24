@@ -5,9 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="Searchbook avec tous les tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/MapperResources/CommentsRowMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/SearchComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchCommentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/service/SearchCommentsImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/in/SearchCommentsUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/out/CommentsRequester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/SearchCommentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/SearchCommentsRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/SearchCommentsImplementationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/apiResources/BookInfoRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/MapperResources/BookInfoRowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchBookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +73,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HttpClientSelectedEnvironments">
@@ -117,30 +126,7 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ProjetWebBook [assemble]">
-    <configuration name="CreateBookTest.shouldReturnOk" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;be.heh.projetbook.adapter.in.web.CreateBookTest.shouldReturnOk&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.SearchCommentsRepositoryTest.shouldWork">
     <configuration name="ProjetWebBook [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,6 +213,29 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="SearchCommentsRepositoryTest.shouldWork" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;be.heh.projetbook.adapter.out.persistence.SearchCommentsRepositoryTest.shouldWork&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="RunningApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="ProjetWebBook.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="be.heh.projetBook.RunningApp" />
@@ -242,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ProjetWebBook [assemble]" />
-        <item itemvalue="Gradle.ProjetWebBook [clean]" />
-        <item itemvalue="Gradle.CreateBookTest.shouldReturnOk" />
+        <item itemvalue="Gradle.SearchCommentsRepositoryTest.shouldWork" />
         <item itemvalue="Gradle.SearchBookTest.shouldReturnOk" />
+        <item itemvalue="Gradle.ProjetWebBook [clean]" />
         <item itemvalue="Gradle.ProjetWebBook [build]" />
+        <item itemvalue="Gradle.ProjetWebBook [assemble]" />
       </list>
     </recent_temporary>
   </component>
@@ -328,7 +337,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>

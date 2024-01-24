@@ -2,10 +2,13 @@ package be.heh.projetBook;
 
 import be.heh.projetBook.adapter.out.persistence.CreateBookRepository;
 import be.heh.projetBook.adapter.out.persistence.SearchBookRepository;
+import be.heh.projetBook.adapter.out.persistence.SearchCommentsRepository;
 import be.heh.projetBook.application.domain.service.CreateBookImplementation;
 import be.heh.projetBook.application.domain.service.SearchBookImplementation;
+import be.heh.projetBook.application.domain.service.SearchCommentsImplementation;
 import be.heh.projetBook.application.port.in.CreateBookUseCase;
 import be.heh.projetBook.application.port.in.SearchBookUseCase;
+import be.heh.projetBook.application.port.in.SearchCommentsUseCase;
 import be.heh.projetBook.application.port.out.AddNewBook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -29,6 +32,11 @@ public class ProjectConfig {
     @Bean
     SearchBookUseCase getSearchBookUsecase(){
         return new SearchBookImplementation(new SearchBookRepository(restTemplate,jdbcTemplate));
+    }
+
+    @Bean
+    SearchCommentsUseCase getSearchCommentsUseCase(){
+        return new SearchCommentsImplementation(new SearchCommentsRepository(jdbcTemplate));
     }
 
     @Bean
