@@ -4,8 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="SearchComments first version">
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="master avant AddComment">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/AddComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/AddCommentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/service/AddCommentsImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/in/AddCommentsUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/out/SavingComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/AddCommentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/AddCommentsRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/AddCommentsImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262/storage_v2/_src_/database/my_db_yqkm.CMrK-g/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262/storage_v2/_src_/database/my_db_yqkm.CMrK-g/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/my_db.8XM4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/my_db.8XM4Bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/createTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createTables.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +75,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="AddComments" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
