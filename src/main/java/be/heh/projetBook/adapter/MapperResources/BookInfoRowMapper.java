@@ -1,4 +1,4 @@
-package be.heh.projetBook.adapter.apiResources;
+package be.heh.projetBook.adapter.MapperResources;
 
 import be.heh.projetBook.application.domain.model.BookInfo;
 import org.springframework.jdbc.core.RowMapper;

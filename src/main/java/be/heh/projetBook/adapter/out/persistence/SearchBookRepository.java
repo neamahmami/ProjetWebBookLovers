@@ -1,7 +1,7 @@
 package be.heh.projetBook.adapter.out.persistence;
 import be.heh.projetBook.adapter.apiResources.ApiDocs;
 import be.heh.projetBook.adapter.apiResources.ApiResponse;
-import be.heh.projetBook.adapter.apiResources.BookInfoRowMapper;
+import be.heh.projetBook.adapter.MapperResources.BookInfoRowMapper;
 import be.heh.projetBook.application.domain.model.BookInfo;
 import be.heh.projetBook.application.port.out.ApiRequester;
 
@@ -84,7 +84,10 @@ public class SearchBookRepository implements ApiRequester {
                                 book.setSummary(res);
                             }
                         }
-                        maliste.add(book);
+                        if(book.getSummary() == null){
+                            maliste.add(book);
+                        }
+
                     }
                 }
             }
