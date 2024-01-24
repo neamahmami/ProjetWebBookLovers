@@ -2,6 +2,7 @@ package be.heh.projetBook.adapter.in.web;
 
 import be.heh.projetBook.adapter.out.persistence.CreateBookRepository;
 import be.heh.projetBook.application.domain.model.BookInfo;
+import be.heh.projetBook.application.port.out.AddNewBook;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -10,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @CrossOrigin
 @RestController
 public class CreateBook {
-    CreateBookRepository bookRepository = new CreateBookRepository(new JdbcTemplate());
+    AddNewBook bookRepository ;
 
     public CreateBook(CreateBookRepository bookRepository) {
         this.bookRepository = bookRepository;

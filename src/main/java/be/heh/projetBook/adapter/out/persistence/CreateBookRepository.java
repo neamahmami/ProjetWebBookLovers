@@ -22,8 +22,8 @@ try {
     jdbc.update(req,
             book.getIsbn(),
             book.getTitle(),
-            book.getAuthor(),
             book.getSummary(),
+            book.getAuthor(),
             book.getCover(),
             book.getRate());
 }

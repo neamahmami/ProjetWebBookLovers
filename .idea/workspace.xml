@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="master root">
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="Searchbook avec tous les tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/apiResources/BookInfoRowMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/MapperResources/BookInfoRowMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchBookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchBookRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +53,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
-  </component>
-  <component name="Git.Merge.Settings">
-    <option name="BRANCH" value="createBook" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -92,6 +92,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;3b45dc4800c441d8e84ed01058d52e54&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -117,6 +118,29 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.ProjetWebBook [assemble]">
+    <configuration name="CreateBookTest.shouldReturnOk" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;be.heh.projetbook.adapter.in.web.CreateBookTest.shouldReturnOk&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="ProjetWebBook [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -180,7 +204,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="rest-api | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api.http" requestIdentifier="#1" runType="Run single request">
+    <configuration name="SearchBookTest.shouldReturnOk" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;be.heh.projetbook.adapter.in.web.SearchBookTest.shouldReturnOk&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
     <configuration name="RunningApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
@@ -190,15 +234,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
-      <deployment type="dockerfile">
-        <settings>
-          <option name="buildOnly" value="true" />
-          <option name="sourceFilePath" value="Dockerfile" />
-        </settings>
-      </deployment>
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
         <settings />
@@ -207,11 +242,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.rest-api | #1" />
-        <item itemvalue="Gradle.ProjetWebBook [clean]" />
-        <item itemvalue="Gradle.ProjetWebBook [build]" />
         <item itemvalue="Gradle.ProjetWebBook [assemble]" />
-        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Gradle.ProjetWebBook [clean]" />
+        <item itemvalue="Gradle.CreateBookTest.shouldReturnOk" />
+        <item itemvalue="Gradle.SearchBookTest.shouldReturnOk" />
+        <item itemvalue="Gradle.ProjetWebBook [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +259,7 @@
       <option name="presentableId" value="Default" />
       <updated>1701787198569</updated>
       <workItem from="1701787199766" duration="63278000" />
+      <workItem from="1705522345409" duration="11132000" />
     </task>
     <task id="LOCAL-00001" summary="master root">
       <created>1701816525256</created>
@@ -260,7 +296,28 @@
       <option name="project" value="LOCAL" />
       <updated>1702584306238</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Master merge CreateBook">
+      <created>1703077068245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703077068245</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Searchbook avant test web">
+      <created>1703165235404</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703165235404</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Searchbook avec tous les tests">
+      <created>1703165947363</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703165947363</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +340,9 @@
     <MESSAGE value="CreateBook prod avant le bon fichier jar" />
     <MESSAGE value="CreateBook prod après fichier jar" />
     <MESSAGE value="CreateBook final" />
-    <option name="LAST_COMMIT_MESSAGE" value="CreateBook final" />
+    <MESSAGE value="Master merge CreateBook" />
+    <MESSAGE value="Searchbook avant test web" />
+    <MESSAGE value="Searchbook avec tous les tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Searchbook avec tous les tests" />
   </component>
 </project>
