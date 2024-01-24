@@ -103,7 +103,7 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Database Script.CreateTable.sql">
     <configuration name="CreateTable.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/src/main/resources/CreateTable.sql" />
       <script-mode>FILE</script-mode>
