@@ -4,10 +4,12 @@ import be.heh.projetBook.RunningApp;
 import be.heh.projetBook.application.domain.model.BookInfo;
 import be.heh.projetBook.application.port.out.ShowList;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mock;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +25,10 @@ public class ShowFavoritesListRepositoryTest {
 
     @Autowired
     private ShowList showListRepository;
-
+    @Mock
+    private JdbcTemplate jbdc;
+    @Mock
+    private BeanPropertyRowMapper bean;
     @Test
     public void shouldReturnNonEmptyList_WhenFavoritesExist() {
         // Mocking the expected behavior of JdbcTemplate.query
