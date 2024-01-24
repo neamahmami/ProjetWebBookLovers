@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="AddComments second version">
+    <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="master avant AddComment">
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/AddComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/AddCommentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/service/AddCommentsImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/in/AddCommentsUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/out/SavingComments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/AddCommentsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/AddCommentsRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/AddCommentsImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262/storage_v2/_src_/database/my_db_yqkm.CMrK-g/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262/storage_v2/_src_/database/my_db_yqkm.CMrK-g/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/my_db.8XM4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/my_db.8XM4Bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/SearchCommentsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/SearchCommentsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/createTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createTables.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,45 +132,49 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchCommentsTest.testSearchComments">
-    <configuration name="ProjetWebBook [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AddCommentsRepositoryTest.AddedToDatabase">
+    <configuration name="AddCommentsRepositoryTest.AddedToDatabase" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;be.heh.projetbook.adapter.out.persistence.AddCommentsRepositoryTest.AddedToDatabase&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ProjetWebBook [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AddCommentsTest.testCreateBook" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
+        <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
           <list />
         </option>
         <option name="taskNames">
           <list>
-            <option value="clean" />
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;be.heh.projetbook.adapter.in.web.AddCommentsTest.testCreateBook&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
@@ -244,11 +263,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.AddCommentsRepositoryTest.AddedToDatabase" />
+        <item itemvalue="Gradle.AddCommentsTest.testCreateBook" />
         <item itemvalue="Gradle.SearchCommentsTest.testSearchComments" />
         <item itemvalue="Gradle.SearchCommentsRepositoryTest.shouldWork" />
         <item itemvalue="Gradle.SearchBookTest.shouldReturnOk" />
-        <item itemvalue="Gradle.ProjetWebBook [clean]" />
-        <item itemvalue="Gradle.ProjetWebBook [build]" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +338,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703165947363</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="last">
+      <created>1706109526899</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706109526899</updated>
+    </task>
+    <task id="LOCAL-00010" summary="last">
+      <created>1706109639217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1706109639217</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +369,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="SearchComments" />
                       </list>
                     </value>
                   </entry>
@@ -357,6 +390,8 @@
     <MESSAGE value="Master merge CreateBook" />
     <MESSAGE value="Searchbook avant test web" />
     <MESSAGE value="Searchbook avec tous les tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Searchbook avec tous les tests" />
+    <MESSAGE value="last" />
+    <MESSAGE value="master avant AddComment" />
+    <option name="LAST_COMMIT_MESSAGE" value="master avant AddComment" />
   </component>
 </project>

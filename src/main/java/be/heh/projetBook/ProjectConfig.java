@@ -1,11 +1,14 @@
 package be.heh.projetBook;
 
+import be.heh.projetBook.adapter.out.persistence.AddCommentsRepository;
 import be.heh.projetBook.adapter.out.persistence.CreateBookRepository;
 import be.heh.projetBook.adapter.out.persistence.SearchBookRepository;
 import be.heh.projetBook.adapter.out.persistence.SearchCommentsRepository;
+import be.heh.projetBook.application.domain.service.AddCommentsImplementation;
 import be.heh.projetBook.application.domain.service.CreateBookImplementation;
 import be.heh.projetBook.application.domain.service.SearchBookImplementation;
 import be.heh.projetBook.application.domain.service.SearchCommentsImplementation;
+import be.heh.projetBook.application.port.in.AddCommentsUseCase;
 import be.heh.projetBook.application.port.in.CreateBookUseCase;
 import be.heh.projetBook.application.port.in.SearchBookUseCase;
 import be.heh.projetBook.application.port.in.SearchCommentsUseCase;
@@ -37,6 +40,11 @@ public class ProjectConfig {
     @Bean
     SearchCommentsUseCase getSearchCommentsUseCase(){
         return new SearchCommentsImplementation(new SearchCommentsRepository(jdbcTemplate));
+    }
+
+    @Bean
+    AddCommentsUseCase getAddCommentsUseCase(){
+        return new AddCommentsImplementation(new AddCommentsRepository(jdbcTemplate));
     }
 
     @Bean

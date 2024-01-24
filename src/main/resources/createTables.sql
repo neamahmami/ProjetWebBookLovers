@@ -10,3 +10,11 @@ create table my_db.bookList
     rate      integer
 );
 
+create table my_db.commentlist
+(
+    id      serial   not null
+        constraint commentlist_pk
+            primary key ,
+    isbn    varchar(20) not null,
+    comment varchar(700)
+);
