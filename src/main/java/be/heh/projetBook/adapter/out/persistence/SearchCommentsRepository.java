@@ -18,7 +18,7 @@ public class SearchCommentsRepository implements CommentsRequester {
 
     @Override
     public List<String> routeComments(String isbn) {
-        String sql = "SELECT * FROM commentlist WHERE isbn = ?";
+        String sql = "SELECT * FROM  commentlist WHERE isbn = ?";
         List<String> commentsList = jdbc.query(sql, new Object[]{isbn}, new CommentsRowMapper());
         return commentsList;
     }

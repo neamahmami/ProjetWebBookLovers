@@ -5,23 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2b80800-ee5d-4462-9f82-53b4c9a13459" name="Changes" comment="master avant AddComment">
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/in/web/AddComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/AddCommentsRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/domain/service/AddCommentsImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/in/AddCommentsUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/application/port/out/SavingComments.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/in/web/AddCommentsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/adapter/out/persistence/AddCommentsRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/be/heh/projetbook/application/domain/service/AddCommentsImplementationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262/storage_v2/_src_/database/my_db_yqkm.CMrK-g/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/98c85e36-a64c-4bd7-97d6-c262f982b262/storage_v2/_src_/database/my_db_yqkm.CMrK-g/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/my_db.8XM4Bg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/my_db.8XM4Bg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/a4bfc464-c795-4414-8220-8923993146b5/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24-01-24_17_44__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_24-01-24_17_44__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application.log" beforeDir="false" afterPath="$PROJECT_DIR$/application.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/createTables.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/createTables.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchCommentsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/be/heh/projetBook/adapter/out/persistence/SearchCommentsRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +128,7 @@
       <recent name="be.heh.projetBook.application.domain.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchCommentsTest.testSearchComments">
+  <component name="RunManager" selected="Gradle.SearchCommentsRepositoryTest.shouldWork">
     <configuration name="ProjetWebBook [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -259,8 +255,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.SearchCommentsTest.testSearchComments" />
         <item itemvalue="Gradle.SearchCommentsRepositoryTest.shouldWork" />
+        <item itemvalue="Gradle.SearchCommentsTest.testSearchComments" />
         <item itemvalue="Gradle.SearchBookTest.shouldReturnOk" />
         <item itemvalue="Gradle.ProjetWebBook [clean]" />
         <item itemvalue="Gradle.ProjetWebBook [build]" />
